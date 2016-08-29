@@ -2,7 +2,8 @@
 set -e
 set -x
 
-cd $(mktemp -d)
+mkdir -p /tmp/rkt-build
+cd /tmp/rkt-build
 
 version="1.13.0"
 
